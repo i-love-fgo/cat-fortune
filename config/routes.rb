@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  #devise_for :users
+  
   root to: 'fortunes#index'
   resources :fortunes, only: :index
   resources :dailies, only: [:index, :show]

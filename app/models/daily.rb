@@ -1,0 +1,2 @@
+class Dayly < ApplicationRecord
+end
