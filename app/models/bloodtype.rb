@@ -1,0 +1,2 @@
+class Bloodtyoe < ApplicationRecord
+end
