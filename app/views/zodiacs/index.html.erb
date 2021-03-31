@@ -1,0 +1,56 @@
+<%= render "shared/header" %>
+
+<div class="h1><%= image_tag "fortune3.png", class: "zodiac-fortune" %></div>
+
+<%= form_with model: @zodiac, url: "#", local: true do |f| %>
+  <div class="sign">
+    <p>
+      <div class="main-text">☆あなたの星座を選択してください☆</div><br>
+        <div class="form">
+          <div class="weight-bold-text">
+            星座
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:sign_id, Sign.all, :id, :name, {}, {class:"sign-select"}) %>
+        </div>
+      </div>
+    </p>
+  </div><br>
+  <div class="question">
+    <p>
+      <div class="main-text"><br>下記の質問にお答えください☆<span class="indispensable">必須</span></div><br>
+        <div class="sub-text">
+          Q1.ご自身の星座について、どの程度知っていますか？<br>
+          <%= f.radio_button :information, :yes %>
+          <%= f.label :information, "とても詳しい", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :information, :ok %>
+          <%= f.label :information, "少しだけ知っている", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :information, :no %>
+          <%= f.label :information, "全然知らない", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q2.自身の星座と、性格は一致していると思いますか？<br>
+          <br>
+            <%= f.radio_button :information, :yes %>
+            <%= f.label :information, "とてもそう思う", {value: :yes, style: "display: inline-block"} %>
+            <%= f.radio_button :information, :ok %>
+            <%= f.label :information, "まあ当たっている", {value: :ok, style: "display: inline-block"} %>
+            <%= f.radio_button :information, :no %>
+            <%= f.label :information, "よく分からない", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q3.自身の星座について、どう思いますか？<br>
+          <%= f.radio_button :information, :yes %>
+          <%= f.label :information, "満足している", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :information, :ok %>
+          <%= f.label :information, "普通かな", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :information, :no %>
+          <%= f.label :information, "不満に思っている", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="result"><br>
+          <%= f.submit "結果をみる", class:"result-btn" %>
+        </div><br>
+<% end %>
+
+
+<%= render "shared/footer" %>

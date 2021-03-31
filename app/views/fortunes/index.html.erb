@@ -1,0 +1,17 @@
+<%= render "shared/header" %>
+  
+  <div class="h1">&#x2728; First &#x2728;</div>
+  <div class="first-content">占いが好きな方、猫が好きな方にとって癒しの場となりますように・・・☆</div><br>
+  <div class="attention">※ 趣味で占いを行っています。どうぞご寛容な心で、お楽しみください&#x1f49d;</div><br>
+
+  <div class="category"><p>&#x1f31f; 占いコンテンツ一覧 &#x1f31f;</p><br>
+    <p><%= link_to image_tag("fortune1.png", class: "daily-fortune"), dailies_path %></p><br>
+    <p><%= link_to image_tag("fortune2.png", class: "bloodtype-fortune"), bloodtypes_path %></p><br>
+    <p><%= link_to image_tag("fortune3.png", class: "zodiac-fortune"), zodiacs_path %></p><br>
+  </div>
+
+  <div class="garally">&#x1f3b5;みんなの占い結果</div>
+
+  <%= image_tag "logo1.png", class:"walking-cat" %>
+
+  <%= render "shared/footer" %>

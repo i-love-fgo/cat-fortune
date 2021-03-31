@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  #devise_for :users
+  root to: 'fortunes#index'
+  resources :fortunes, only: :index
+  resources :dailies, only: [:index, :show]
+  resources :bloodtypes, only: [:index, :show]
+  resources :zodiacs, only: [:index, :show]
 end

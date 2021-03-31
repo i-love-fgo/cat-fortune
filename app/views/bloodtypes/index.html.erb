@@ -1,0 +1,55 @@
+<%= render "shared/header" %>
+
+<div class="h1"><%= image_tag "fortune2.png", class: "bloodtype-fortune" %></div><br>
+
+<%= form_with model: @bloodtype, url: "#", local: true do |f| %>
+  <div class="blood-type">
+    <p>
+      <div class="main-text">☆あなたの血液型を選択してください☆</div><br>
+        <div class="form">
+          <div class="weight-bold-text">
+            血液型
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:type_id, Type.all, :id, :name, {}, {class:"type-select"}) %>
+        </div>
+      </div>
+    </p>
+  </div><br>
+  <div class="questions">
+    <p>
+      <div class="main-text"><br>☆下記の質問にお答えください☆<span class="indispensable">必須</span></div><br>
+        <div class="sub-text">
+          Q1.あなたは、自身の血液型と性格についてどう思いますか？<br>
+          <%= f.radio_button :personality, :yes %>
+          <%= f.label :personality, "当てはまっている", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :personality, :ok %>
+          <%= f.label :personality, "やや当たっている", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :personality, :no %>
+          <%= f.label :personality, "全然当てはまらない", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q2.第三者からは、どのようなリアクションを受けますか？<br>
+          <%= f.radio_button :reaction, :yes %>
+          <%= f.label :reaction, "だと思った！", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :reaction, :ok %>
+          <%= f.label :reaction, "へぇ、そうなんだ！", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :reaction, :no %>
+          <%= f.label :reaction, "見えないね！", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q3.あなたは、自身の血液型と性格についてどう思いますか？<br>
+          <%= f.radio_button :feeling, :yes %>
+          <%= f.label :feeling, "満足している", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :feeling, :ok %>
+          <%= f.label :feeling, "ちょっと不満", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :feeling, :no %>
+          <%= f.label :feeling, "・・・", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="result"><br>
+          <%= f.submit "結果をみる", class:"result-btn" %>
+        </div><br>
+
+<% end %>
+
+<%= render "shared/footer" %>

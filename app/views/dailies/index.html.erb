@@ -1,0 +1,66 @@
+<%= render "shared/header" %>
+
+<div class="h1"><%= image_tag "fortune1.png", class: "daily-fortune" %></div><br>
+
+<%= form_with model: @daily, id:"form" do |f| %>
+  <div class="birthday">
+    <p>
+      <div class="main-text">☆あなたの誕生日を選択してください☆</div><br>
+        <div class="form">
+          <div class="weight-bold-text">
+            西暦
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:year_id, Year.all, :id, :name, {}, {class:"year-select", id:"year"}) %>
+          <div class="weight-bold-text">
+            誕生月
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:month_id, Month.all, :id, :name, {}, {class:"month-select", id:"month"}) %>
+          <div class="weight-bold-text">
+            誕生日
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:day_id, Day.all, :id, :name, {}, {class:"day-select", id:"day"}) %>
+        </div>
+      </div>
+    </p>
+  </div><br>
+  <div class="question">
+    <p>
+      <div class="main-text"><br>☆下記の質問にお答えください☆<span class="indispensable">必須</span></div><br>
+        <div class="sub-text", id="sleep">
+          Q1.昨夜は、よく眠れましたか？<br>
+          <%= f.radio_button :sleeping, :yes, id:"sleeping" %>
+          <%= f.label :sleeping, "はい", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :sleeping, :ok, id:"sleeping" %>
+          <%= f.label :sleeping, "まあまあ", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :sleeping, :no, id:"sleeping" %>
+          <%= f.label :sleeping, "いいえ", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q2.今朝は、朝食を食べましたか？<br>
+          <%= f.radio_button :eating, :yes, id:"eating" %>
+          <%= f.label :eating, "はい", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :eating, :ok, id:"eating" %>
+          <%= f.label :eating, "まあまあ", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :eating, :no, id:"eating" %>
+          <%= f.label :eating, "いいえ", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="sub-text">
+          Q3.今日の体調は、いかがですか？<br>
+          <%= f.radio_button :condition, :yes, id:"condition" %>
+          <%= f.label :condition,"絶好調！", {value: :yes, style: "display: inline-block"} %>
+          <%= f.radio_button :condition, :ok, id:"condition" %>
+          <%= f.label :condition, "まあまあ", {value: :ok, style: "display: inline-block"} %>
+          <%= f.radio_button :condition, :no, id:"condition" %>
+          <%= f.label :condition, "ダルおも", {value: :no, style: "display: inline-block"} %>
+        </div><br>
+        <div class="result"><br>
+          <%= f.submit "結果をみる", class:"result-btn", id:"result" %>
+        </div><br>
+<% end %>
+
+
+
+<%= render "shared/footer" %>
