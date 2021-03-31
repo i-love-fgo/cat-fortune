@@ -1,0 +1,30 @@
+.h1 {
+	font-size: 25px;
+	font-family: 'Hachi Maru Pop', cursive;
+	text-align: center;
+	color:  violet;
+}
+.first-content {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: lightskyblue;
+}
+.attention {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: red;
+}
+.category {
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: royalblue;
+}
+.garally {
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Hachi Maru Pop', cursive;
+	color: yellowgreen;
+}
