@@ -1,24 +1,24 @@
-# README
+## userテーブル
+| Column               | Type     | Options                   |
+| -------------------- | -------- | ------------------------- |
+| nickname             | string   | null: false               |
+| email                | string   | null: false, unique: true |
+| encrypted_password   | string   | null: false               |
+| favorite_cat         | string   | null:false                |
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Associations
+- has_many :fortunes
+- has_many :comments
 
-Things you may want to cover:
+## commentsテーブル
+| Column      | Type         | Options                        |
+| ----------- | ------------ | ------------------------------ |
+| user        | references   | null: false, foreign-key: true |
+| fortune     | references   | null: false, foreign-key: true |
 
-* Ruby version
+## Associations
+- belongs_to :user
+- belongs_to :fortune
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## fortunesテーブル
+| Column        | 
