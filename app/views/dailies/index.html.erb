@@ -31,29 +31,29 @@
       <div class="main-text"><br>☆下記の質問にお答えください☆<span class="indispensable">必須</span></div><br>
         <div class="sub-text", id="sleep">
           Q1.昨夜は、よく眠れましたか？<br>
-          <%= f.radio_button :sleeping, :yes, id:"sleeping" %>
+          <%= f.radio_button :sleeping, :yes, id:"sleeping1" %>
           <%= f.label :sleeping, "はい", {value: :yes, style: "display: inline-block"} %>
-          <%= f.radio_button :sleeping, :ok, id:"sleeping" %>
+          <%= f.radio_button :sleeping, :ok, id:"sleeping2" %>
           <%= f.label :sleeping, "まあまあ", {value: :ok, style: "display: inline-block"} %>
-          <%= f.radio_button :sleeping, :no, id:"sleeping" %>
+          <%= f.radio_button :sleeping, :no, id:"sleeping3" %>
           <%= f.label :sleeping, "いいえ", {value: :no, style: "display: inline-block"} %>
         </div><br>
-        <div class="sub-text">
+        <div class="sub-text", id="eat">
           Q2.今朝は、朝食を食べましたか？<br>
-          <%= f.radio_button :eating, :yes, id:"eating" %>
-          <%= f.label :eating, "はい", {value: :yes, style: "display: inline-block"} %>
-          <%= f.radio_button :eating, :ok, id:"eating" %>
+          <%= f.radio_button :eating, :yes, id:"eating1" %>
+          <%= f.label :eating, "はい", {style: "display: inline-block"} %>
+          <%= f.radio_button :eating, :ok, id:"eating2" %>
           <%= f.label :eating, "まあまあ", {value: :ok, style: "display: inline-block"} %>
-          <%= f.radio_button :eating, :no, id:"eating" %>
+          <%= f.radio_button :eating, :no, id:"eating3" %>
           <%= f.label :eating, "いいえ", {value: :no, style: "display: inline-block"} %>
         </div><br>
-        <div class="sub-text">
+        <div class="sub-text", id="condition">
           Q3.今日の体調は、いかがですか？<br>
-          <%= f.radio_button :condition, :yes, id:"condition" %>
+          <%= f.radio_button :condition, :yes, id:"condition1" %>
           <%= f.label :condition,"絶好調！", {value: :yes, style: "display: inline-block"} %>
-          <%= f.radio_button :condition, :ok, id:"condition" %>
+          <%= f.radio_button :condition, :ok, id:"condition2" %>
           <%= f.label :condition, "まあまあ", {value: :ok, style: "display: inline-block"} %>
-          <%= f.radio_button :condition, :no, id:"condition" %>
+          <%= f.radio_button :condition, :no, id:"condition3" %>
           <%= f.label :condition, "ダルおも", {value: :no, style: "display: inline-block"} %>
         </div><br>
         <div class="result"><br>
