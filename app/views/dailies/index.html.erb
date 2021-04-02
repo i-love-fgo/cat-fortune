@@ -1,7 +1,7 @@
 <%= render "shared/header" %>
 
 <div class="h1"><%= image_tag "fortune1.png", class: "daily-fortune" %></div><br>
-
+<div class="h3", id: "content"></div>
 <%= form_with model: @daily, id:"form" do |f| %>
   <div class="birthday">
     <p>
