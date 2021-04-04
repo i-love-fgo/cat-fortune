@@ -56,7 +56,7 @@ function result (){
     const total_num = num1 + num2 + num3 + num4 + num5; 
     if (total_num => 15) {
        document.getElementById("text").innerHTML = `
-         <div class="h2"><img src="result.png"></div><br>
+         <div class="h1", id="image"></div><br>
          <div class="content">
            <p>今日のあなたは、エネルギーに満ち溢れています！</p><br><p>キラキラと輝いていて、いつものあなた以上に素敵です♪</p><br>
            <p>またあなたの周囲の人達も、あなたのエネルギーを貰って、力がみなぎりそう！</p><br>
@@ -66,10 +66,14 @@ function result (){
            <p>そんなあなたのラッキーにゃんこは、『エキゾチックショートヘア』です！</p><br><p>愛嬌のある可愛らしい顔が特徴の猫ちゃんで、ペルシャ譲りの穏やかな性格をしています。</p><br>
            <p>また、人懐っこい性格でもあり、人と遊ぶことが大好きです。</p><br><p>是非、スキンシップを兼ねて遊んであげてください！</p>
          </div><br>
-         <div class="h3"><img src="ekizo2.jpg"></div>`;
+         <div class="h2", id="cat-photo"></div>;`
+        var images = document.getElementById("image");
+         images.innerHTML = `<img src="@/assets/images/kekka.png">`;
+        var photos = document.getElementById("cat-photo");
+         photos.innerHTML = `<img src="@/assets/images/ekizo2.jpg">`; 
         const question = document.getElementById("questions");
         question.style.visibility = "hidden";
-    } else if (total_num => 14 && total_num <= 9) {
+    } else if (total_num => 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
           <div class="h1"><img src="result.png"></div><br>
           <div class="content">
