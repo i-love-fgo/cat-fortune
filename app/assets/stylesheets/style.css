@@ -19,6 +19,12 @@ body {
   color: #3b4043;
 }
 
+.background {
+  background-image: url(bg_main.jpg);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
 li {
   list-style: none;
 }
