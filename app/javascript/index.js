@@ -1,4 +1,4 @@
-const { formDisableSelector } = require("@rails/ujs");
+const { formDisableSelector, $ } = require("@rails/ujs");
 
 function result (){
   const commit = document.getElementById("result");
@@ -91,11 +91,11 @@ function result (){
         //  img_element.alt = 'メインクーン';
         //  img_element.width = 400;
         //  img_element.height = 300;
-         var img = document.getElementById("photo");
-         img.insertAdjacentHTML("beforeBegin", img_element);
-        (img_element).attr({
-          src: "<%= asset_path('meikun2.jpg') %>"
-         });
+         //var photo = document.getElementById("photo");
+         //img.insertAdjacentHTML("beforeBegin", img_element);
+        var image = new Image();
+        image.src = "data:https://drive.google.com/file/d/1zsxD-Zy4dG6HS4Lgh-a0KA8Dh9LSpYiN/view?usp=sharing, ";
+        document.body.appendChild(image);
     } else if (total_num => 15) {
       document.getElementById("text").innerHTML = `
         <div class="h2">&#127882; 占い結果 &#127882;</div><br>

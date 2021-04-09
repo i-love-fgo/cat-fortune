@@ -14,7 +14,7 @@
 | (デプロイ後に添付) |
 
 ## テスト用アカウント
-|                      |
+| (テスト用アカウント) |
 
 ## 利用方法
 | ご利用頂く際には、ユーザー登録が必要となります。上記に記載しました、テスト用アカウン |
@@ -36,45 +36,24 @@
 | うなメッセージを、届けられればと思い開発しております。                          |
 
 ## 洗い出した要件
-| (要件定義を参照する)      |
+| https://docs.google.com/spreadsheets/d1g4tUHOiNirG9SJGv4djwaJfz-SmnbKqHJGMIauyeuYU/edit?usp=sharing |
 
 ## 実装した機能について(画像)
-|                           |
+| (随時更新予定) |
 
 ## 実装した機能について(動画)
-|                           |
+| (随時更新予定) |
 
 ## 実装予定の機能
-|                            |
+| コメント投稿機能、占い結果の投稿機能、チャットルーム機能etc. |
 
 ## データベース設計
-| (ER図等を添付する)  |
+| cat-fortune.png |
 
 ## ローカルでの操作
-| git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記述。この時、アプリケー|
-| ション開発に使用した環境を併記することを忘れないこと（パッケージやRubyのバージョンなど）|
-
-## userテーブル
-| Column               | Type     | Options                   |
-| -------------------- | -------- | ------------------------- |
-| nickname             | string   | null: false               |
-| email                | string   | null: false, unique: true |
-| encrypted_password   | string   | null: false               |
-| favorite_cat         | string   | null:false                |
-
-## Associations
-- has_many :fortunes
-- has_many :comments
-
-## commentsテーブル
-| Column      | Type         | Options                        |
-| ----------- | ------------ | ------------------------------ |
-| user        | references   | null: false, foreign-key: true |
-| fortune     | references   | null: false, foreign-key: true |
-
-## Associations
-- belongs_to :user
-- belongs_to :fortune
-
-## fortunesテーブル
-| Column        | 
+| git clone (heroku上でのURL.git) |
+| cd cat-fortune                 |
+| bundle install                 |
+| yarn install                   |
+| rails db:create                |
+| rails db:migrate               |
