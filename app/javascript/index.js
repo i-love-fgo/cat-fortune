@@ -79,23 +79,23 @@ function result (){
            <p>気分転換に遠出をすると、運命の出会いがあるかもしれません。</p><br>
            <p>猫ちゃん達と触れ合い、癒しと刺激をもらいながら、あなたの魅力をもっと高めてくださいね！</p>
           </div><br>
-         <div class="sub-content"><br>
+          <div class="sub-content"><br>
            <p>そんなあなたのラッキーにゃんこは、『メインクーン』です！</p><br><p>『穏やかな巨人』と称される程、大きな体に似合わず優しく穏やかな性格をしています。</p><br>
            <p>学習能力も高い上に、環境適応能力・協調性も優れており、小さな子供や他の動物とも仲良くなれる特徴を持っています！</p><br>
            <p>一般のペットショップや猫カフェにいることはごく稀ですが、今日のあなたなら出会えるチャンスがあるかもしれません！</p>
-         </div><br>`;
+          </div><br>
+          <`;
+        document.getElementById("sub-text").innerHTML = `
+          <canvas><img src="<%= asset_pack_path 'media/images/meinkun2.jpg' %>"></canvas>`;
+      //  var canvas = document.getElementById("image");
+        //var c = canvas.getContext('2d');
+        //var img = new Image();
+        //img.src = '../javascript/images/meinkun2.jpg';
+        //img.onload = function(){
+        //  c.drawImage(img, 10,)
+        //}
         var question = document.getElementById("questions");
         question.style.visibility = "hidden";
-        // var img_element = document.getElementById("photo");
-        //  img_element.src = 'assets/images/meinkun2.jpg';
-        //  img_element.alt = 'メインクーン';
-        //  img_element.width = 400;
-        //  img_element.height = 300;
-         //var photo = document.getElementById("photo");
-         //img.insertAdjacentHTML("beforeBegin", img_element);
-        var image = new Image();
-        image.src = "data:https://drive.google.com/file/d/1zsxD-Zy4dG6HS4Lgh-a0KA8Dh9LSpYiN/view?usp=sharing, ";
-        document.body.appendChild(image);
     } else if (total_num => 15) {
       document.getElementById("text").innerHTML = `
         <div class="h2">&#127882; 占い結果 &#127882;</div><br>
