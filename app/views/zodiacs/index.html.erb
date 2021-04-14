@@ -11,12 +11,12 @@
             星座
             <span class="indispensable">必須</span>
           </div>
-          <%= f.collection_select(:sign_id, Sign.all, :id, :name, {}, {class:"sign-select"}) %>
+          <%= f.collection_select(:sign_id, Sign.all, :id, :name, {}, {class:"sign-select", id:"sign"}) %>
         </div>
       </div>
     </p>
   </div><br>
-  <div class="question">
+  <div class="question", id="questions">
     <p>
       <div class="main-text"><br>下記の質問にお答えください☆<span class="indispensable">必須</span></div><br>
         <div class="sub-text">
@@ -48,7 +48,7 @@
           <%= f.label :information, "不満に思っている", {value: :no, style: "display: inline-block"} %>
         </div><br>
         <div class="result"><br>
-          <%= f.submit "結果をみる", class:"result-btn" %>
+          <%= f.submit "結果をみる", class:"result-btn", id:"result3" %>
         </div><br>
 <% end %>
 
