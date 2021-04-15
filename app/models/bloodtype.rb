@@ -1,2 +1,2 @@
-class Bloodtyoe < ApplicationRecord
+class Bloodtype < ApplicationRecord
 end

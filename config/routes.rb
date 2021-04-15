@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   root to: 'fortunes#index'
   resources :fortunes, only: :index
-  resources :dailies, only: [:index, :show]
-  resources :bloodtypes, only: [:index, :show]
-  resources :zodiacs, only: [:index, :show]
+  resources :dailies, only: :index
+  resources :bloodtypes, only: :index
+  resources :zodiacs, only: :index
 end
