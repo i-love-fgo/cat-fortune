@@ -78,9 +78,42 @@
   font-size: 25px;
   color: #ff7f50;
 }
-.photo {
-  text-align: center;
-  width: 400px;
-  height: 300px;
-  object-fit: cover;
+.picture {
+  width: 700px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.picture > div {
+  height: 400px;
+  background-image: url(meinkun2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture2 {
+  width: 700px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.picture2 > div {
+  height: 400px;
+  background-image: url(suko2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture3 {
+  width: 700px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.picture3 > div {
+  height: 400px;
+  background-image: url(ekizo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
