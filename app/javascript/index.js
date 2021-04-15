@@ -66,12 +66,12 @@ function result (){
          <p>そんなあなたのラッキーにゃんこは、『スコティッシュフォールド』です！</p><br><p>甘えん坊で人懐っこく、近寄るとお腹を見せて転がりアピールしてくることもあるそうです。</p><br>
          <p>とても寂しがり屋さんなので、甘えてきたらとことん甘やかしてあげましょう！</p>
        </div><br>
-       <p><img src="suko2.jpg" width="400" height="300" align="bottom" class="photo"></a></p>`;
-      //var photos = document.getElementById("cat-photo");
-       //photos.innerHTML = ``;
+       <div class="picture2 animation-target">
+         <div></div>
+       </div>`;
       var question = document.getElementById("questions");
       question.style.visibility = "hidden";
-    } else if (total_num => 9 && total_num <= 14) {
+    } else if (total_num >= 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
           <div class="h2">&#127882; 占い結果 &#127882;</div><br>
           <div class="content">
@@ -84,19 +84,12 @@ function result (){
            <p>学習能力も高い上に、環境適応能力・協調性も優れており、小さな子供や他の動物とも仲良くなれる特徴を持っています！</p><br>
            <p>一般のペットショップや猫カフェにいることはごく稀ですが、今日のあなたなら出会えるチャンスがあるかもしれません！</p>
           </div><br>
-          <`;
-        document.getElementById("sub-text").innerHTML = `
-          <canvas><img src="<%= asset_pack_path 'media/images/meinkun2.jpg' %>"></canvas>`;
-      //  var canvas = document.getElementById("image");
-        //var c = canvas.getContext('2d');
-        //var img = new Image();
-        //img.src = '../javascript/images/meinkun2.jpg';
-        //img.onload = function(){
-        //  c.drawImage(img, 10,)
-        //}
+          <div class="picture animation-target">
+           <div></div>
+          </div>`;
         var question = document.getElementById("questions");
         question.style.visibility = "hidden";
-    } else if (total_num => 15) {
+    } else if (total_num >= 15) {
       document.getElementById("text").innerHTML = `
         <div class="h2">&#127882; 占い結果 &#127882;</div><br>
         <div class="content">
@@ -108,9 +101,9 @@ function result (){
           <p>そんなあなたのラッキーにゃんこは、『エキゾチックショートヘア』です！</p><br><p>愛嬌のある可愛らしい顔が特徴の猫ちゃんで、ペルシャ譲りの穏やかな性格をしています。</p><br>
           <p>また、人懐っこい性格でもあり、人と遊ぶことが大好きです。</p><br><p>是非、スキンシップを兼ねて遊んであげてください！</p>
         </div><br>
-        <p class="photo"><img src="/assets/images/ekizo2.jpg" width="400" height="300" align="bottom"></p>;`
-      //var photos = document.getElementById("cat-photo");
-       //photos.innerHTML = ``; 
+        <div class="picture3 animation-target">
+         <div></div>
+        </div>;`
       var question = document.getElementById("questions");
       question.style.visibility = "hidden";
     };

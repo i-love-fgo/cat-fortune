@@ -28,15 +28,17 @@ function result2 (){
          <p>また、常識を大切にしたい性格のため、常に周囲の反応を気にしてしまったり、<br>
          『自分の意見より他人の意見を尊重したい』という気遣いも持たれています。</p><br>
          <p>そういった点で、臨機応変な対応ができ、冷静で理論的な決断を下すことが<br>
-         できるでしょう</p><br>
+         できるでしょう！</p><br>
         </div><br>
         <div class="sub-content"><br>
          <p>そんなあなたと相性のいいにゃんこは、『メインクーン』です！</p><br>
          <p>成長すると、体調が1メートルを超える程大きな体格の持ち主ですが、<br>
-         性格は穏やかで優しく、とても賢い猫でもあるので、あなたとの相性バッチリです！</p>/<br>
+         性格は穏やかで優しく、とても賢い猫でもあるので、あなたとの相性バッチリです！</p><br>
          <p>信頼関係を築くことができれば、きっとあなたの良きパートナーとなるでしょう！<p></br>
         </div><br>
-        <p class="photo"><img src="$https://drive.google.com/file/d/1zsxD-Zy4dG6HS4Lgh-a0KA8Dh9LSpYiN/view?usp=sharing width="400" height="300" alt="メインクーン" align="bottom"></p>`;
+        <div class="picture4 animation-target">
+         <div></div>
+        </div>`;
       var question = document.getElementById("questions");
       question.style.visibility = "hidden";
     } else if (total_num == 3) {
@@ -51,14 +53,17 @@ function result2 (){
          <p>一見すると気分屋に見えてしまいがちですが、自分の気持ちに嘘がつけないだけなので、<br>
          不思議と周りから憎まれない人物です。</p><br>
         </div><br>
-        <div class="sub-content><br>
+        <div class="sub-content"><br>
          <p>そんなあなたと相性のいいにゃんこは、『バーミーズ』です！</p><br>
          <p>バーミーズは、とても大らかで穏やかな性格をしています。</p><br>
          <p>また思いやりの心が強く、飼い主が悲しんでいるとそれを察することができると言われており、</br>
          『慈悲深い猫』とも言われています。</p><p>更に頭もよく、先住猫がいたとしてもその環境に適応するのが<br>
          比較的早いとされています。</p>バーミーズはおしゃべりが好きで、飼い主さんの顔を覗き込むように話を聞いて<br>
          くれますよ！</p><p>何事に対しても興味津々な、あなたとの相性抜群です！</p>
-        </div><br>`;
+        </div><br>
+        <div class="picture5 animation-target">
+         <div></div>
+        </div>`;
       var question = document.getElementById("questions");
       question.style.visibility = "hidden";
     } else if (total_num == 2) {
@@ -81,7 +86,10 @@ function result2 (){
          <p>また活発で運動が大好きです。運動不足になると、ストレスが溜まったり太りやすくなってしまいます。</p><br>
          <p>猫とたくさん遊んであげることで、絆も築き上げることができます！ただ、抱っこは嫌いなので触れ合いたい時は<br>
          地面に座って膝の上で撫でてあげてください！</p>
-        </div><br>`;
+        </div><br>
+        <div class="picture6 animation-target">
+         <div></div>
+        </div>`;
       var question = document.getElementById("questions");
       question.style.visibility = "hidden";
     } else if (total_num == 1) {
@@ -104,7 +112,10 @@ function result2 (){
          上手にできると言われており、外出が多い方でも安心して飼うことができます。</p><br>
          <p>更に好奇心旺盛で遊ぶことが大好きで、特に飼い主さんと遊ぶのが大好きな性格です！</p><br>
          <p>無邪気に甘えてこられたら、心を開かざるを得ないですよね？</p>
-         </div><br>`;
+         </div><br>
+         <div class="picture7 animation-target">
+           <div></div>
+         </div>`;
         var question = document.getElementById("questions");
         question.style.visibility = "hidden";
     };
