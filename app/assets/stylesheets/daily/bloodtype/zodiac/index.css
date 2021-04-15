@@ -78,11 +78,26 @@
   font-size: 25px;
   color: #ff7f50;
 }
+.animation-target {
+  animation-name: fuwafuwa;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+}
+@keyframes fuwafuwa {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, -15px);
+  }
+}
 .picture {
   width: 700px;
-  height: 500px;
+  height: 700px;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 .picture > div {
   height: 400px;
@@ -93,26 +108,234 @@
 }
 .picture2 {
   width: 700px;
-  height: 500px;
+  height: 700px;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 350px;
 }
 .picture2 > div {
   height: 400px;
-  background-image: url(suko2.jpg);
+  background-image: url(suko3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .picture3 {
-  width: 700px;
-  height: 500px;
+  width: 450px;
+  height: 700px;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 .picture3 > div {
   height: 400px;
-  background-image: url(ekizo.jpg);
+  background-image: url(ekizo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture4 {
+  width: 700px;
+  height: 800px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture4 > div {
+  height: 400px;
+  background-image: url(meinkun2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture5 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture5 > div {
+  height: 400px;
+  background-image: url(baamiizu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture6 {
+  width: 450px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.picture6 > div {
+  height: 400px;
+  background-image: url(amerikan2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture7 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture7 > div {
+  height: 400px;
+  background-image: url(mantikan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture8 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture8 > div {
+  height: 400px;
+  background-image: url(burithishu2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture9 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture9 > div {
+  height: 400px;
+  background-image: url(abishinian.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture10 {
+  width: 650px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.picture10 > div {
+  height: 400px;
+  background-image: url(syamu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture11 {
+  width: 650px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.picture11 > div {
+  height: 400px;
+  background-image: url(meinkuun.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture12 {
+  width: 650px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.picture12 > div {
+  height: 400px;
+  background-image: url(sufinkusu2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture13 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture13 > div {
+  height: 400px;
+  background-image: url(mike2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture14 {
+  width: 650px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.picture14 > div {
+  height: 400px;
+  background-image: url(ragu3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture15 {
+  width: 450px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.picture15 > div {
+  height: 400px;
+  background-image: url(ekizo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture16 {
+  width: 700px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.picture16 > div {
+  height: 400px;
+  background-image: url(rosian2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture17 {
+  width: 450px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.picture17 > div {
+  height: 400px;
+  background-image: url(bonbei.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture18 {
+  width: 450px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.picture18 > div {
+  height: 400px;
+  background-image: url(hima2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture19 {
+  width: 600px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.picture19 > div {
+  height: 400px;
+  background-image: url(noruwejan2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
