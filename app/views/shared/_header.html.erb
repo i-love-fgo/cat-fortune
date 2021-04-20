@@ -7,7 +7,7 @@
             <% if user_signed_in? %>
               <div class="nav__right">
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "logout" %>
-              <%= link_to "こんにちは、#{current_user.nickname}さん", "#", class: "user-nickname" %>
+              <%= link_to "こんにちは、#{current_user.nickname}さん", "/users/#{current_user.id}", class: "user-nickname" %>
               </div>
             <% else %>
               <div class="nav__right">

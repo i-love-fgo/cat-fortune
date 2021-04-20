@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :dailies, only: :index
   resources :bloodtypes, only: :index
   resources :zodiacs, only: :index
+  resources :users, only: :show
 end
