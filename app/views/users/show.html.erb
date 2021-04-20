@@ -1,0 +1,31 @@
+<div class="main">
+  <div class="inner">
+    <div class="user__wrapper">
+      <h2 class="page-heading">
+        <%= "#{@user.nickname}さんの情報"%>
+      </h2>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th class="table__col1">ニックネーム</th>
+            <td class="table__col2"><%= @user.nickname %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">プロフィール画像</th>
+            <td class="table__col2"><%= @user.profile_img %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">♡お気に入り猫ちゃん♡</th>
+            <td class="table__col2"><%= @user.favorite_cat %></td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 class="page-heading">
+        <%= "#{@user.nickname}さんの占い結果"%>
+      </h2>
+      <div class="user__card">
+        <%#= render partial: 'prototypes/prototype', collection: @prototypes %>
+      </div>
+    </div>
+  </div>
+</div>

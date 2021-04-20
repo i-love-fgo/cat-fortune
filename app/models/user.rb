@@ -12,4 +12,6 @@ class User < ApplicationRecord
   has_many :bloodtypes
   has_many :zodiacs
 
+  mount_uploader :image, ImageUploader
+
 end
