@@ -14,7 +14,7 @@
  (デプロイ後に添付) 
 
 ## テスト用アカウント
- E-mail: test@test 
+ E-mail: test@test   
  Password: 111qqq
 
 ## 利用方法
