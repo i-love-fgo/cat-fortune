@@ -43,25 +43,25 @@
  [![Image from Gyazo](https://i.gyazo.com/3a7d623be6e3df4891fd42d27af962c0.png)](https://gyazo.com/3a7d623be6e3df4891fd42d27af962c0) 
 
 ## ユーザーのログイン機能
- [![Image from Gyazo](https://i.gyazo.com/c964b6b6dc81b051d4574808534f4315.gif)](https://gyazo.com/c964b6b6dc81b051d4574808534f4315) 
+ [![Image from Gyazo](https://i.gyazo.com/ac9b027693fd382d232beaa8c142d01e.gif)](https://gyazo.com/ac9b027693fd382d232beaa8c142d01e) 
 
 ## 今日の運勢（パターン1）
- [![Image from Gyazo](https://i.gyazo.com/c078e6f2bde04d41c8203107bc597eda.gif)](https://gyazo.com/c078e6f2bde04d41c8203107bc597eda)
+ [![Image from Gyazo](https://i.gyazo.com/27b3ccf1906752cb6836e27e0cc07701.gif)](https://gyazo.com/27b3ccf1906752cb6836e27e0cc07701)
 
 ## 今日の運勢（パターン2）
- [![Image from Gyazo](https://i.gyazo.com/2f8af5b11abdbcbc7e12b38a3f46b1a4.gif)](https://gyazo.com/2f8af5b11abdbcbc7e12b38a3f46b1a4)
+ [![Image from Gyazo](https://i.gyazo.com/84b219774acce99dbdae806c94c707ef.gif)](https://gyazo.com/84b219774acce99dbdae806c94c707ef)
 
 ## 血液型診断（A型）
- [![Image from Gyazo](https://i.gyazo.com/61e84a7f83c2c299ca07ad1453ebf7e1.gif)](https://gyazo.com/61e84a7f83c2c299ca07ad1453ebf7e1)
+ [![Image from Gyazo](https://i.gyazo.com/b316448dfc2c012a9c92ca425656fdb8.gif)](https://gyazo.com/b316448dfc2c012a9c92ca425656fdb8)
 
 ## 血液型診断（O型）
- [![Image from Gyazo](https://i.gyazo.com/41894c827d11d2cf6e431c015818ec07.gif)](https://gyazo.com/41894c827d11d2cf6e431c015818ec07)
+ [![Image from Gyazo](https://i.gyazo.com/b49de6413c8d573176b699080d59bc42.gif)](https://gyazo.com/b49de6413c8d573176b699080d59bc42)
 
 ## 星座別診断（パターン1）
- [![Image from Gyazo](https://i.gyazo.com/4815b500c98c5f1964ea97c5794ed9c5.gif)](https://gyazo.com/4815b500c98c5f1964ea97c5794ed9c5)
+ [![Image from Gyazo](https://i.gyazo.com/89ed26fc647b7dc13b2cf53c2e763415.gif)](https://gyazo.com/89ed26fc647b7dc13b2cf53c2e763415)
 
 ## 星座別診断（パターン2）
- [![Image from Gyazo](https://i.gyazo.com/365abae66669792f39a76c532577c717.gif)](https://gyazo.com/365abae66669792f39a76c532577c717)
+ [![Image from Gyazo](https://i.gyazo.com/1037d05ef2faef29bd0e84f466c4f08f.gif)](https://gyazo.com/1037d05ef2faef29bd0e84f466c4f08f)
 
 ## 実装予定の機能
  マイページの実装、コメント投稿機能、占い結果の投稿機能、チャットルーム機能etc. 
