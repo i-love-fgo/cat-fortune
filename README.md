@@ -40,13 +40,45 @@
  https://docs.google.com/spreadsheets/d/1g4tUHOiNirG9SJGv4djwaJfz-SmnbKqHJGMIauyeuYU/edit?usp=sharing 
 
 ## 実装した機能について(画像)
- (随時更新予定) 
+ ・独自の占いコンテンツ
+ [![Image from Gyazo](https://i.gyazo.com/3a7d623be6e3df4891fd42d27af962c0.png)](https://gyazo.com/3a7d623be6e3df4891fd42d27af962c0) 
 
 ## 実装した機能について(動画)
- (随時更新予定) 
+ ・ユーザーのログイン機能
+ [![Image from Gyazo](https://i.gyazo.com/c964b6b6dc81b051d4574808534f4315.gif)](https://gyazo.com/c964b6b6dc81b051d4574808534f4315) 
+
+ ・今日の運勢（パターン1）
+ [![Image from Gyazo](https://i.gyazo.com/c078e6f2bde04d41c8203107bc597eda.gif)](https://gyazo.com/c078e6f2bde04d41c8203107bc597eda)
+
+ ・今日の運勢（パターン2）
+ [![Image from Gyazo](https://i.gyazo.com/2f8af5b11abdbcbc7e12b38a3f46b1a4.gif)](https://gyazo.com/2f8af5b11abdbcbc7e12b38a3f46b1a4)
+
+ ・今日の運勢（パターン3）
+ [![Image from Gyazo](https://i.gyazo.com/37339ced2d7243215a7d0bcf3061f4a4.gif)](https://gyazo.com/37339ced2d7243215a7d0bcf3061f4a4)
+
+ ・血液型診断（A型）
+ [![Image from Gyazo](https://i.gyazo.com/61e84a7f83c2c299ca07ad1453ebf7e1.gif)](https://gyazo.com/61e84a7f83c2c299ca07ad1453ebf7e1)
+
+ ・血液型診断（B型）
+ [![Image from Gyazo](https://i.gyazo.com/73cc54ff16fa2ee8a649f7d015d8ed66.gif)](https://gyazo.com/73cc54ff16fa2ee8a649f7d015d8ed66)
+
+ ・血液型診断（O型）
+ [![Image from Gyazo](https://i.gyazo.com/41894c827d11d2cf6e431c015818ec07.gif)](https://gyazo.com/41894c827d11d2cf6e431c015818ec07)
+
+ ・血液型診断（AB型）
+ [![Image from Gyazo](https://i.gyazo.com/a25f047440e898dafbb0dff719e562d4.gif)](https://gyazo.com/a25f047440e898dafbb0dff719e562d4)
+
+ ・星座別診断（パターン1）
+ [![Image from Gyazo](https://i.gyazo.com/4815b500c98c5f1964ea97c5794ed9c5.gif)](https://gyazo.com/4815b500c98c5f1964ea97c5794ed9c5)
+
+ ・星座別診断（パターン2）
+ [![Image from Gyazo](https://i.gyazo.com/365abae66669792f39a76c532577c717.gif)](https://gyazo.com/365abae66669792f39a76c532577c717)
+
+ ・星座別診断（パターン3）
+ [![Image from Gyazo](https://i.gyazo.com/d4cabb94a10977ea32d403d7d49f191f.gif)](https://gyazo.com/d4cabb94a10977ea32d403d7d49f191f)
 
 ## 実装予定の機能
- コメント投稿機能、占い結果の投稿機能、チャットルーム機能etc. 
+ マイページの実装、コメント投稿機能、占い結果の投稿機能、チャットルーム機能etc. 
 
 ## データベース設計
  [![Image from Gyazo](https://i.gyazo.com/0d02b507b2178efa4f67d75750b71620.png)](https://gyazo.com/0d02b507b2178efa4f67d75750b71620)
