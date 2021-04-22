@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: cat_fortune_production
-  username: cat_fortune
-  password: <%= ENV['CAT_FORTUNE_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
