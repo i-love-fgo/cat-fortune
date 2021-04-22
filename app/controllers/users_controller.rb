@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action user_params
+  # before_action user_params
 
   def show
     user = User.find(params[:id])
