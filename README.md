@@ -11,7 +11,7 @@
  づくユーザーの詳細ページを見られるような実装を検討しています。                  
 
 ## URL
- (デプロイ後に添付) 
+ http://54.238.36.94/
 
 ## テスト用アカウント
  E-mail: test@test   
@@ -70,7 +70,7 @@
  [![Image from Gyazo](https://i.gyazo.com/0d02b507b2178efa4f67d75750b71620.png)](https://gyazo.com/0d02b507b2178efa4f67d75750b71620)
 
 ## ローカルでの操作
- git clone (heroku上でのURL.git) 
+ git clone http://54.238.36.94/ 
  cd cat-fortune                 
  bundle install                 
  yarn install                   
