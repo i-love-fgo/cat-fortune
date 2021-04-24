@@ -70,7 +70,7 @@
  [![Image from Gyazo](https://i.gyazo.com/0d02b507b2178efa4f67d75750b71620.png)](https://gyazo.com/0d02b507b2178efa4f67d75750b71620)
 
 ## ローカルでの操作
- git clone http://54.238.36.94/ 
+ git clone http://54.238.36.94/  
  cd cat-fortune                 
  bundle install                 
  yarn install                   
