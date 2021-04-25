@@ -3,7 +3,7 @@
 <div id="text">
   <div class="h1"><%= image_tag "fortune3.png", class: "zodiac-fortune" %></div><br>
 
-  <%= form_with model: @zodiac, url: "#", local: true do |f| %>
+  <%= form_with model: @zodiac, id:"form" do |f| %>
     <div class="sign">
       <p>
         <div class="main-text">☆あなたの星座を選択してください☆</div><br>

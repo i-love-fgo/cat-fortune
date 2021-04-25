@@ -53,8 +53,7 @@ function result3 (){
          <div class="picture8 animation-target">
            <div></div>
          </div>`;
-        var question = document.getElementById("questions");
-        question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 2) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -77,8 +76,7 @@ function result3 (){
          <div class="picture9 animation-target">
            <div></div>
          </div>`;
-        var question = document.getElementById("questions");
-        question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 3) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -100,8 +98,7 @@ function result3 (){
          <div class="picture10 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 4) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -124,8 +121,7 @@ function result3 (){
          <div class="picture11 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 5) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -149,8 +145,7 @@ function result3 (){
          <div class="picture12 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 6) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -175,8 +170,7 @@ function result3 (){
          <div class="picture13 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 7) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -201,8 +195,7 @@ function result3 (){
          <div class="picture14 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 8) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -227,8 +220,7 @@ function result3 (){
          <div class="picture15 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 9) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -253,8 +245,7 @@ function result3 (){
          <div class="picture16 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 10) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -278,8 +269,7 @@ function result3 (){
          <div class="picture17 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 11) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -302,8 +292,7 @@ function result3 (){
          <div class="picture18 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       } else if (total_num == 12) {
         document.getElementById("text").innerHTML = `
          <div class="h1">&#127882; 占い結果 &#127882;</div><br>
@@ -326,8 +315,7 @@ function result3 (){
          <div class="picture19 animation-target">
            <div></div>
          </div>`;
-         var question = document.getElementById("questions");
-         question.style.visibility = "hidden";
+        document.getElementById("questions").textContent = '';
       };
   });
 }
