@@ -69,7 +69,8 @@ function result (){
        <div class="picture2 animation-target">
          <div></div>
        </div>`;
-      document.getElementById("questions").textContent = '';
+      var question = document.getElementById("questions");
+      question.style.visibility = "hidden";
     } else if (total_num >= 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
           <div class="h2">&#127882; 占い結果 &#127882;</div><br>
@@ -86,7 +87,8 @@ function result (){
           <div class="picture animation-target">
            <div></div>
           </div>`;
-        document.getElementById("questions").textContent = '';
+        var question = document.getElementById("questions");
+        question.style.visibility = "hidden";
     } else if (total_num >= 15) {
       document.getElementById("text").innerHTML = `
         <div class="h2">&#127882; 占い結果 &#127882;</div><br>
@@ -102,7 +104,8 @@ function result (){
         <div class="picture3 animation-target">
          <div></div>
         </div>;`
-      document.getElementById("questions").textContent = '';
+      var question = document.getElementById("questions");
+      question.style.visibility = "hidden";
     };
   });
 }
