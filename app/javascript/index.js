@@ -66,7 +66,7 @@ function result (){
          <p>そんなあなたのラッキーにゃんこは、『スコティッシュフォールド』です！</p><br><p>甘えん坊で人懐っこく、近寄るとお腹を見せて転がりアピールしてくることもあるそうです。</p><br>
          <p>とても寂しがり屋さんなので、甘えてきたらとことん甘やかしてあげましょう！</p>
        </div><br>
-       <div class="picture2 animation-target" style="background-image:url(<%= asset_path "suko3.jpg" %>)">
+       <div class="picture2 animation-target">
          <div></div>
        </div>`;
       document.getElementById("questions").textContent = '';
