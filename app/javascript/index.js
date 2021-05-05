@@ -99,7 +99,7 @@ function result (){
           <p>そんなあなたのラッキーにゃんこは、『エキゾチックショートヘア』です！</p><br><p>愛嬌のある可愛らしい顔が特徴の猫ちゃんで、ペルシャ譲りの穏やかな性格をしています。</p><br>
           <p>また、人懐っこい性格でもあり、人と遊ぶことが大好きです。</p><br><p>是非、スキンシップを兼ねて遊んであげてください！</p>
         </div><br>
-        <div class="picture3 animation-target">
+        <div class="picture3 animation-target" style="background-image:url(<%= asset_path "ekizo3.jpg" %>)">
          <div></div>
         </div>;`
       document.getElementById("questions").textContent = '';
