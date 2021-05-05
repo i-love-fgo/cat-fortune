@@ -66,7 +66,7 @@ function result (){
          <p>そんなあなたのラッキーにゃんこは、『スコティッシュフォールド』です！</p><br><p>甘えん坊で人懐っこく、近寄るとお腹を見せて転がりアピールしてくることもあるそうです。</p><br>
          <p>とても寂しがり屋さんなので、甘えてきたらとことん甘やかしてあげましょう！</p>
        </div><br>
-       <div class="picture2 animation-target">
+       <div class="picture2 animation-target" style="background-image:url(<%= asset_path "suko3.jpg" %>)">
          <div></div>
        </div>`;
       document.getElementById("questions").textContent = '';
@@ -83,7 +83,7 @@ function result (){
            <p>学習能力も高い上に、環境適応能力・協調性も優れており、小さな子供や他の動物とも仲良くなれる特徴を持っています！</p><br>
            <p>一般のペットショップや猫カフェにいることはごく稀ですが、今日のあなたなら出会えるチャンスがあるかもしれません！</p>
           </div><br>
-          <div class="picture animation-target">
+          <div class="picture animation-target" style="background-image:url(<%= asset_path "meinkun2.jpg" %>)">
            <div></div>
           </div>`;
         document.getElementById("questions").textContent = '';

@@ -140,7 +140,7 @@
 }
 .picture4 > div {
   height: 400px;
-  background-image: url(meinkun2.jpg);
+  background-image: image-url("meinkun2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,7 +153,7 @@
 }
 .picture5 > div {
   height: 400px;
-  background-image: url(baamiizu.jpg);
+  background-image: image-url("baamiizu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -166,7 +166,7 @@
 }
 .picture6 > div {
   height: 400px;
-  background-image: url(amerikan2.jpg);
+  background-image: image-url("amerikan2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -179,7 +179,7 @@
 }
 .picture7 > div {
   height: 400px;
-  background-image: url(mantikan.jpg);
+  background-image: image-url("mantikan.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -192,7 +192,7 @@
 }
 .picture8 > div {
   height: 400px;
-  background-image: url(burithishu2.jpg);
+  background-image: image-url("burithishu2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -205,7 +205,7 @@
 }
 .picture9 > div {
   height: 400px;
-  background-image: url(abishinian.jpg);
+  background-image: image-url("abishinian.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -218,7 +218,7 @@
 }
 .picture10 > div {
   height: 400px;
-  background-image: url(syamu.jpg);
+  background-image: image-url("syamu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -231,7 +231,7 @@
 }
 .picture11 > div {
   height: 400px;
-  background-image: url(meinkuun.jpg);
+  background-image: image-url("meinkuun.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -244,7 +244,7 @@
 }
 .picture12 > div {
   height: 400px;
-  background-image: url(sufinkusu2.jpg);
+  background-image: image-url("sufinkusu2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -257,7 +257,7 @@
 }
 .picture13 > div {
   height: 400px;
-  background-image: url(mike2.jpg);
+  background-image: image-url("mike2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -270,7 +270,7 @@
 }
 .picture14 > div {
   height: 400px;
-  background-image: url(ragu3.jpg);
+  background-image: image-url("ragu3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -283,7 +283,7 @@
 }
 .picture15 > div {
   height: 400px;
-  background-image: url(ekizo3.jpg);
+  background-image: image-url("ekizo3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -296,7 +296,7 @@
 }
 .picture16 > div {
   height: 400px;
-  background-image: url(rosian2.jpg);
+  background-image: image-url("rosian2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -309,7 +309,7 @@
 }
 .picture17 > div {
   height: 400px;
-  background-image: url(bonbei.jpg);
+  background-image: image-url("bonbei.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -322,7 +322,7 @@
 }
 .picture18 > div {
   height: 400px;
-  background-image: url(hima2.jpg);
+  background-image: image-url("hima2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -335,7 +335,7 @@
 }
 .picture19 > div {
   height: 400px;
-  background-image: url(noruwejan2.jpg);
+  background-image: image-url("noruwejan2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
