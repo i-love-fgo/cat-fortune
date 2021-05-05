@@ -101,7 +101,7 @@
 }
 .picture > div {
   height: 400px;
-  background-image: url(meinkun2.jpg);
+  background-image: image-url("meinkun2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,7 +114,7 @@
 }
 .picture2 > div {
   height: 400px;
-  background-image: url(suko3.jpg);
+  background-image: image-url("suko3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -127,7 +127,7 @@
 }
 .picture3 > div {
   height: 400px;
-  background-image: url(ekizo3.jpg);
+  background-image: image-url("ekizo3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
