@@ -66,7 +66,7 @@ function result (){
          <p>そんなあなたのラッキーにゃんこは、『スコティッシュフォールド』です！</p><br><p>甘えん坊で人懐っこく、近寄るとお腹を見せて転がりアピールしてくることもあるそうです。</p><br>
          <p>とても寂しがり屋さんなので、甘えてきたらとことん甘やかしてあげましょう！</p>
        </div><br>
-       <div class="picture2 animation-target" style="background-image:url(<%= asset_path "suko3.jpg" %>)">
+       <div class="picture2 animation-target">
          <div></div>
        </div>`;
       document.getElementById("questions").textContent = '';
@@ -83,7 +83,7 @@ function result (){
            <p>学習能力も高い上に、環境適応能力・協調性も優れており、小さな子供や他の動物とも仲良くなれる特徴を持っています！</p><br>
            <p>一般のペットショップや猫カフェにいることはごく稀ですが、今日のあなたなら出会えるチャンスがあるかもしれません！</p>
           </div><br>
-          <div class="picture animation-target" style="background-image:url(<%= asset_path "meinkun2.jpg" %>)">
+          <div class="picture animation-target">
            <div></div>
           </div>`;
         document.getElementById("questions").textContent = '';
@@ -99,7 +99,7 @@ function result (){
           <p>そんなあなたのラッキーにゃんこは、『エキゾチックショートヘア』です！</p><br><p>愛嬌のある可愛らしい顔が特徴の猫ちゃんで、ペルシャ譲りの穏やかな性格をしています。</p><br>
           <p>また、人懐っこい性格でもあり、人と遊ぶことが大好きです。</p><br><p>是非、スキンシップを兼ねて遊んであげてください！</p>
         </div><br>
-        <div class="picture3 animation-target" style="background-image:url(<%= asset_path "ekizo3.jpg" %>)">
+        <div class="picture3 animation-target">
          <div></div>
         </div>;`
       document.getElementById("questions").textContent = '';
