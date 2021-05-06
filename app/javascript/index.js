@@ -69,9 +69,9 @@ function result (){
        <div class="picture2 animation-target">
          <div></div>
        </div>`;
-      document.getElementById("pictures").insertAdjacentHTML = `
-         <div class="picture2" style="background-image:url(<%= asset_path "suko3.jpg" %>)"></div>`;
       document.getElementById("questions").textContent = '';
+      document.getElementById("cat").insertAdjacentHTML = `
+         <div class="picture2" style="background-image:url(<%= asset_path "suko3.jpg" %>)"></div>`;
     } else if (total_num >= 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
           <div class="h2">&#127882; 占い結果 &#127882;</div><br>
