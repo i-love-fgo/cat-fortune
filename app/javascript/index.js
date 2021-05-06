@@ -69,6 +69,8 @@ function result (){
        <div class="picture2 animation-target">
          <div></div>
        </div>`;
+      document.getElementById("pictures").insertAdjacentHTML = `
+         <div class="picture2" style="background-image:url(<%= asset_path "suko3.jpg" %>)"></div>`;
       document.getElementById("questions").textContent = '';
     } else if (total_num >= 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
