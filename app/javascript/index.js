@@ -74,6 +74,9 @@ function result (){
        </div>
        <div class="save">
            <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
        </div>`;
       document.getElementById("questions").textContent = '';
       document.getElementById("cat").insertAdjacentHTML = `
