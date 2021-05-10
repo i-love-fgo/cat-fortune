@@ -68,7 +68,17 @@ function result (){
        </div><br>
        <div class="picture2 animation-target">
          <div></div>
-       </div>`;
+       </div>
+       <div class="btn-wrap--perspective">
+         <a href="" class="btn btn-3d btn-3db">もう一度占う
+         <i class="fas fa-angle-down fa-position-right"></i></a>
+       </div>
+       <a href="" class="btn btn-3d-circle">
+         <span class="btn-3d-circle-content">
+           <span class="btn-3d-circle-front">結果を保存する</span>
+         </span>
+         <span class="btn-3d-circle-back"><i class="fas fa-mouse-pointer"></i></span>
+       </a>`;
       document.getElementById("questions").textContent = '';
       document.getElementById("cat").insertAdjacentHTML = `
          <div class="picture2" style="background-image:url(<%= asset_path "suko3.jpg" %>)"></div>`;

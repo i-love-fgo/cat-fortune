@@ -79,18 +79,33 @@
   color: #ff7f50;
 }
 .animation-target {
-  animation-name: fuwafuwa;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-duration: 1.5s;
+  animation: poyoyon 2.5s infinite;
+  opacity: 1;
 }
-@keyframes fuwafuwa {
-  0% {
-    transform: translate(0, 0px);
+@keyframes poyoyon {
+  0%, 40% {
+    transform: skew(0deg, 0deg);
   }
-  100% {
-    transform: translate(0, -15px);
+  5% {
+    transform: skew(5deg, 5deg);
+  }
+  10% {
+    transform: skew(-4deg, -4deg);
+  }
+  15% {
+    transform: skew(3deg, 3deg);
+  }
+  20% {
+    transform: skew(-2deg, -2deg);
+  }
+  25% {
+    transform: skew(1deg, 1deg);
+  }
+  30% {
+    transform: skew(-0.6deg, -0.6deg);
+  }
+  35% {
+    transform: skew(0.3deg, 0.3deg);
   }
 }
 .picture {
@@ -339,4 +354,188 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+.btn-wrap--perspective {
+  display: inline-block;
+
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+a.btn-3d {
+  display: block;
+
+  -webkit-transform: rotateX(35deg);
+
+  transform: rotateX(35deg);
+
+  color: #fff;
+  border-radius: 0.25rem 0.25rem 0 0;
+  background: #5cbcf6;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+}
+a.btn-3d:after {
+  position: absolute;
+  z-index: -1;
+
+  content: "";
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+a.btn-3db:after {
+  top: calc(100% - 1px);
+  left: 0;
+
+  width: 100%;
+  height: 40%;
+
+  -webkit-transform: rotateX(-90deg);
+
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+  border-radius: 0 0 4px 4px;
+  background: #53a6d7;
+}
+a.btn-3db:hover {
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+
+  color: #fff;
+  border-radius: 0.25rem;
+}
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-3d-circle {
+  display: block;
+
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+
+  border-radius: 50%;
+}
+
+.btn-3d-circle-content {
+  display: block;
+  line-height: 100px;
+  text-align: center;
+
+  width: 200px;
+  height: 200px;
+
+  -webkit-transition: all 0.6s;
+
+  transition: all 0.6s;
+
+  border-radius: 50%;
+  background: #f2f5f6;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f2f5f6),
+    color-stop(37%, #e3eaed),
+    to(#c8d7dc)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f2f5f6 0%,
+    #e3eaed 37%,
+    #c8d7dc 100%
+  );
+  background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+  -webkit-perspective: 150px;
+  perspective: 150px;
+}
+
+.btn-3d-circle:hover .btn-3d-circle-content {
+  -webkit-transform: rotateY(0.5turn) rotateX(-0.03turn);
+  transform: rotateY(0.5turn) rotateX(-0.03turn);
+}
+
+.btn-3d-circle:hover .btn-3d-circle-front {
+  opacity: 0;
+}
+
+.btn-3d-circle:hover .btn-3d-circle-back {
+  top: calc(50% - 2rem);
+  left: calc(50% - 0.75rem);
+
+  opacity: 1;
+}
+
+.btn-3d-circle-back {
+  font-size: 3rem;
+
+  position: absolute;
+  top: 70%;
+  left: 70%;
+
+  -webkit-transition: all 0.3s;
+
+  transition: all 0.3s;
+  letter-spacing: 0;
+
+  opacity: 0;
 }
