@@ -69,19 +69,15 @@ function result (){
        <div class="picture2 animation-target">
          <div></div>
        </div>
-       <div class="btn-wrap--perspective">
-         <a href="" class="btn btn-3d btn-3db">もう一度占う
-         <i class="fas fa-angle-down fa-position-right"></i></a>
+       <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
        </div>
-       <a href="" class="btn btn-3d-circle">
-         <span class="btn-3d-circle-content">
-           <span class="btn-3d-circle-front">結果を保存する</span>
-         </span>
-         <span class="btn-3d-circle-back"><i class="fas fa-mouse-pointer"></i></span>
-       </a>`;
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>`;
       document.getElementById("questions").textContent = '';
       document.getElementById("cat").insertAdjacentHTML = `
-         <div class="picture2" style="background-image:url(<%= asset_path "suko3.jpg" %>)"></div>`;
+         <div class="picture2" style="background-image:url(<%= asset_pack_path "suko3.jpg" %>)"></div>`;
     } else if (total_num >= 9 && total_num <= 14) {
         document.getElementById("text").innerHTML =`
           <div class="h2">&#127882; 占い結果 &#127882;</div><br>
