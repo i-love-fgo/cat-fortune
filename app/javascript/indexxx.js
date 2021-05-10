@@ -52,7 +52,16 @@ function result3 (){
          </div><br>
          <div class="picture8 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 2) {
         document.getElementById("text").innerHTML = `
@@ -75,7 +84,16 @@ function result3 (){
          </div><br>
          <div class="picture9 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 3) {
         document.getElementById("text").innerHTML = `
@@ -97,7 +115,16 @@ function result3 (){
          </div><br>
          <div class="picture10 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 4) {
         document.getElementById("text").innerHTML = `
@@ -120,7 +147,16 @@ function result3 (){
          </div><br>
          <div class="picture11 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 5) {
         document.getElementById("text").innerHTML = `
@@ -144,7 +180,16 @@ function result3 (){
          </div><br>
          <div class="picture12 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 6) {
         document.getElementById("text").innerHTML = `
@@ -169,7 +214,16 @@ function result3 (){
          </div><br>
          <div class="picture13 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 7) {
         document.getElementById("text").innerHTML = `
@@ -194,7 +248,16 @@ function result3 (){
          </div><br>
          <div class="picture14 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 8) {
         document.getElementById("text").innerHTML = `
@@ -219,7 +282,16 @@ function result3 (){
          </div><br>
          <div class="picture15 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 9) {
         document.getElementById("text").innerHTML = `
@@ -244,7 +316,16 @@ function result3 (){
          </div><br>
          <div class="picture16 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 10) {
         document.getElementById("text").innerHTML = `
@@ -268,7 +349,16 @@ function result3 (){
          </div><br>
          <div class="picture17 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 11) {
         document.getElementById("text").innerHTML = `
@@ -291,7 +381,16 @@ function result3 (){
          </div><br>
          <div class="picture18 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       } else if (total_num == 12) {
         document.getElementById("text").innerHTML = `
@@ -314,7 +413,16 @@ function result3 (){
          </div><br>
          <div class="picture19 animation-target">
            <div></div>
-         </div>`;
+         </div>
+         <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
       };
   });

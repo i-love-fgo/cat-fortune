@@ -96,7 +96,16 @@ function result (){
           </div><br>
           <div class="picture animation-target">
            <div></div>
-          </div>`;
+          </div>
+          <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
         document.getElementById("questions").textContent = '';
     } else if (total_num >= 15) {
       document.getElementById("text").innerHTML = `
@@ -112,7 +121,16 @@ function result (){
         </div><br>
         <div class="picture3 animation-target">
          <div></div>
-        </div>;`
+        </div>
+        <div class="again">
+         <a href="/dailies" class="again-btn">もう一度占う</a>
+       </div>
+       <div class="save">
+           <a href="" class="save-btn">結果を保存する</a>
+       </div>
+       <div class="top">
+         <a href="/fortunes" class="top-btn">トップへ戻る</a>
+       </div>`;
       document.getElementById("questions").textContent = '';
     };
   });
