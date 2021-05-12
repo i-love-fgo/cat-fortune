@@ -62,6 +62,7 @@ gem 'active_hash'
 gem 'pry-rails'
 gem "aws-sdk-s3", require: false
 gem 'carrierwave'
+gem 'rmagick'
 
 group :production do
   gem 'unicorn', '5.4.1'
