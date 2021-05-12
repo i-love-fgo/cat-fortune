@@ -12,7 +12,9 @@
           </tr>
           <tr>
             <th class="table__col1">プロフィール画像</th>
-            <td class="table__col2"><%= @user.profile_img %></td>
+            <% if @user.image? %>
+              <td class="table__col2"><%= image_tag @user.image.url %></td>
+            <% end %>
           </tr>
           <tr>
             <th class="table__col1">♡お気に入り猫ちゃん♡</th>

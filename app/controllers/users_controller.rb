@@ -1,8 +1,6 @@
 class UsersController < ApplicationController
 
-  def show
-    #@user = User.find(params[:id])
-    # @user.nickname = current_user.nickname
-    # @user.favorite_cat = current_user.favorite_cat
+  def user_params
+    params.require(:user).permit(:nickname, :email, :favorite_cat, :image)
   end
 end
